@@ -12,6 +12,7 @@
 		2014E84A1CE120BC00B6D622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2014E8481CE120BC00B6D622 /* LaunchScreen.storyboard */; };
 		2014E8551CE120BC00B6D622 /* HomepwnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014E8541CE120BC00B6D622 /* HomepwnerTests.swift */; };
 		2014E8601CE120BC00B6D622 /* HomepwnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014E85F1CE120BC00B6D622 /* HomepwnerUITests.swift */; };
+		2014E86E1CE1231B00B6D622 /* ItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2014E86D1CE1231B00B6D622 /* ItemsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		2014E85B1CE120BC00B6D622 /* HomepwnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HomepwnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2014E85F1CE120BC00B6D622 /* HomepwnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomepwnerUITests.swift; sourceTree = "<group>"; };
 		2014E8611CE120BC00B6D622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2014E86D1CE1231B00B6D622 /* ItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				2014E83F1CE120BC00B6D622 /* AppDelegate.swift */,
+				2014E86D1CE1231B00B6D622 /* ItemsViewController.swift */,
 				2014E8461CE120BC00B6D622 /* Assets.xcassets */,
 				2014E8481CE120BC00B6D622 /* LaunchScreen.storyboard */,
 				2014E84B1CE120BC00B6D622 /* Info.plist */,
@@ -250,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2014E8401CE120BC00B6D622 /* AppDelegate.swift in Sources */,
+				2014E86E1CE1231B00B6D622 /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +470,7 @@
 				2014E8661CE120BC00B6D622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2014E8671CE120BC00B6D622 /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				2014E8691CE120BC00B6D622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2014E86A1CE120BC00B6D622 /* Build configuration list for PBXNativeTarget "HomepwnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +488,7 @@
 				2014E86C1CE120BC00B6D622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
